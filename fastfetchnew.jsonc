@@ -1,0 +1,34 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "/home/sannur/Downloads/NixOS.png",
+         "width": 24,
+        "height": 12,
+    "padding": {
+        "top": 2,
+        "left": 5,
+        "bottom": 1
+    }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        { "key": "╭───────────╮", "type": "custom", "keyColor": "white" },
+        { "key": "│  user    │", "type": "title", "format": "{user-name}", "keyColor": "white", "outputColor": "white" },
+        { "key": "│ 󰇅 hname   │", "type": "title", "format": "{host-name}", "keyColor": "white", "outputColor": "white" },
+        { "key": "│ 󰅐 uptime  │", "type": "uptime", "keyColor": "white", "outputColor": "white" },
+        { "key": "│  distro  │", "type": "os", "keyColor": "white", "outputColor": "white" },
+        { "key": "│  kernel  │", "type": "kernel", "keyColor": "white", "outputColor": "white" },
+        { "key": "│  wm      │", "type": "wm", "keyColor": "white", "outputColor": "white" },
+        { "key": "│  term    │", "type": "terminal", "keyColor": "white", "outputColor": "white" },
+        { "key": "│  shell   │", "type": "shell", "keyColor": "white", "outputColor": "white" },
+        { "key": "│ 󰍛 cpu     │", "type": "cpu", "format": "Intel® Core™ Ultra 7 258V/265U/268V", "keyColor": "white", "outputColor": "white" },
+        { "key": "│ 󰉉 disk    │", "type": "command", "text": "echo '10.20 GiB / 2.00 TiB (0%)'", "keyColor": "white", "outputColor": "white" },
+        { "key": "│  memory  │", "type": "command", "text": "echo '3.75 GiB / 64.00 GiB'", "keyColor": "white", "outputColor": "white" },
+        { "key": "├───────────┤", "type": "custom", "keyColor": "white" },
+        { "key": "│ PC        │", "type": "command", "text": "echo 'LENOVO ThinkPad X1 Carbon Gen 13'", "keyColor": "white", "outputColor": "white" },
+        { "key": "│  colors  │", "type": "command", "text": "printf '\\033[36m \\033[34m \\033[35m \\033[32m \\033[33m \\033[31m \\033[37m\\033[0m\\n'", "keyColor": "white", "outputColor": "white" },
+        { "key": "╰───────────╯", "type": "custom", "keyColor": "white" }
+    ]
+}
