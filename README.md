@@ -6,8 +6,8 @@ Config backup for a [niri](https://github.com/YaLTeR/niri) desktop running [noct
 
 | File | Goes to | What it is |
 | --- | --- | --- |
-| `settings.json` | `~/.config/noctalia/` | The full noctalia-shell settings dump (`settingsVersion` 59) — app launcher, bar, dock, control center, notifications, OSD, night light, wallpaper, color schemes, session menu, system monitor, and desktop widgets. |
-| `keybinds.kdl` | included from `~/.config/niri/config.kdl` | niri key bindings. Application launches (Alacritty, Firefox) plus the noctalia bindings, which are driven over IPC — for example `qs -c noctalia-shell ipc call launcher toggle`. Each bind carries a `hotkey-overlay-title` so it reads properly in niri's hotkey overlay. |
+| `settings.json` | `~/.config/noctalia/` | The full noctalia-shell settings dump (`settingsVersion` 59): app launcher, bar, dock, control center, notifications, OSD, night light, wallpaper, color schemes, session menu, system monitor, and desktop widgets. |
+| `keybinds.kdl` | included from `~/.config/niri/config.kdl` | niri key bindings. Application launches (Alacritty, Firefox) plus the noctalia bindings, which are driven over IPC, for example `qs -c noctalia-shell ipc call launcher toggle`. Each bind carries a `hotkey-overlay-title` so it reads properly in niri's hotkey overlay. |
 | `rules1.kdl` | included from `~/.config/niri/config.kdl` | Window rules and the compositor blur block: 3 passes, offset 3.5, noise 0.02, saturation 1.7, with 20px corner radius and clip-to-geometry on all windows. Tuned so the wallpaper still reads through the blur instead of being flattened. |
 | `fastfetchnew.jsonc` | `~/.config/fastfetch/` | fastfetch config. |
 
@@ -23,7 +23,7 @@ Clipboard history is disabled in this dump while the `wl-paste ... cliphist stor
 
 ## Caveats
 
-Single upload from May 2026, kept as a restore point rather than a maintained config. `settingsVersion` 59 may not match current noctalia-shell — newer versions will migrate it, older ones may not read it.
+Single upload from May 2026, kept as a restore point rather than a maintained config. `settingsVersion` 59 may not match current noctalia-shell; newer versions will migrate it, older ones may not read it.
 
 ## License
 
