@@ -24,3 +24,9 @@ Clipboard history is disabled in this dump while the `wl-paste ... cliphist stor
 ## Caveats
 
 Single upload from May 2026, kept as a restore point rather than a maintained config. `settingsVersion` 59 may not match current noctalia-shell — newer versions will migrate it, older ones may not read it.
+
+## License
+
+GPL-3.0. `keybinds.kdl` and `rules1.kdl` are copies of the config CachyOS ships in
+[cachyos-niri-noctalia](https://github.com/CachyOS/cachyos-niri-noctalia), which is
+GPL-3.0, so this repo inherits it. [NOTICE](NOTICE) lists what came from where.

@@ -1,3 +1,7 @@
+// Modified from CachyOS/cachyos-niri-noctalia,
+// etc/skel/.config/niri/cfg/rules.kdl at commit 8938e953 (GPL-3.0).
+// Changed by Recandle on 2026-05-07. See NOTICE and LICENSE.
+
 // ===============================
 // FINAL: macOS-like wallpaper glass blur
 // ===============================

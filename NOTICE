@@ -1,0 +1,26 @@
+Parts of this repository are not my own work.
+
+keybinds.kdl and rules1.kdl started as copies of the niri configuration that
+CachyOS ships in https://github.com/CachyOS/cachyos-niri-noctalia under
+etc/skel/.config/niri/cfg/ (keybinds.kdl and rules.kdl), taken at commit
+8938e953. That repository is licensed under the GNU General Public License
+version 3, and copyright in the original files stays with the CachyOS authors.
+
+110 of the 113 non-blank lines in keybinds.kdl are byte for byte identical to
+upstream, comments and column alignment included; what I changed is the
+terminal and browser binds and a handful of noctalia IPC calls. rules1.kdl
+keeps 20 of its 35 non-comment lines from upstream rules.kdl verbatim apart
+from indentation, including the two Steam window rules with the
+`open-focused false` line that CachyOS added and that does not appear in the
+niri wiki version of the same snippet.
+
+Because those files are derivative works of GPL-3.0 code, this repository is
+distributed under the GPL-3.0. The full licence text is in LICENSE.
+
+The setup targets niri (https://github.com/niri-wm/niri, GPL-3.0) and
+noctalia-shell (https://github.com/noctalia-dev/noctalia, MIT). The IPC
+commands used in the keybinds are documented by noctalia-shell.
+
+settings.json is a dump of my own noctalia-shell settings, fastfetchnew.jsonc
+is my own fastfetch config, and README.md is mine. Neither config file was
+copied from another project.
